@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head> <!-- Dentro del "head", he añadido un enlace a otra página con CSS, mientras que el resto de enlaces son para cambiar el tipo de letra con Google Fonts -->
+    <title>Inicio</title>
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header> <!-- He utilizado esta etiqueta semántica para la cabecera. Aquí he añadido la barra de navegación con "nav" y un título con "h1" -->
+        <h1>NowTube</h1>
+        <nav> <!-- Aquí he añadido una lista desordenada con "ul" con las principales páginas. Para enlazarlas he utilizado la etiqueta "a" -->
+            <ul>
+                <li><a href="inicio.html"><b>Inicio</b></a></li>
+                <li><a href="audios.html"><b>Audios</b></a></li>
+                <li><a href="videos.html"><b>Vídeos</b></a></li>
+            </ul>
+            <div class="barra_buscar">
+                <input type="text" id="searchInput" placeholder="Buscar...">
+                <button onclick="buscar()">Buscar</button>
+            </div>
+            <div id="mensaje"></div>
+        </nav>
+        <div class="imagen"> <!-- He añadido una imagen con el atributo "src" que he descargado. Además, he modificado su ancho con "width" -->
+            <img src="/IMAGEN/logo.png" width="300">
+        </div>
+    </header>
+    <main> <!-- Aquí he utilizado esta etiqueta semántica de contenido principal, y he añadido el mismo código que tenía en la actividad anterior -->
+        <div class="contenedor"> <!-- Esta clase la he creado para tener todo el contenido principal dentro de un bloque, y así poder modificarlo en su totalidad -->
+            <div class="columna1"> 
+                <h2>Descripción</h2>
+            </div>
+            <div class="columna2">
+                <h2>Webs similares</h2>
+            </div>
+            <div class="columna3">
+                <p>Bienvenido a <b>NowTube</b>, un sitio web pensado para subir toda clase de audios y vídeos de entretenimiento. Esta página aún esté en una fase temprana, pero ya puedes echarle un vistazo a lo que llevamos hecho.</p>
+            </div>
+            <div class="columna4">
+                <h3>Otros sitios de interés:</h3>
+                <a href="https://www.cifpfbmoll.eu/">YouTube</a>
+                <p></p>
+                <a href="https://www.twitch.tv/">Twitch</a>
+            </div>
+        </div>
+    </main>
+    <script src="/SCRIPT/script.js"></script>
+</body>

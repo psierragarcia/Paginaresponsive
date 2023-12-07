@@ -1,0 +1,132 @@
+@media only screen and (max-width: 768px) {
+    /* Estilos para pantallas con un ancho máximo de 768px */
+    .columna1,
+    .columna2,
+    .columna3,
+    .columna4 {
+        float: none; /* Elimina el float para que las columnas se apilen verticalmente */
+        width: 100%; /* Ocupa el 100% del ancho del contenedor */
+        margin-right: 0; /* Elimina el margen derecho */
+    }
+
+    nav ul {
+        font-size: 100%; /* Ajusta el tamaño de fuente según sea necesario */
+    }
+
+    nav ul li {
+        margin-right: 20px; /* Añade un margen derecho a los elementos de la lista */
+    }
+}
+
+.contenedor {
+    border: 2px solid black; /* Borde negro de 2px */
+    background-color: red; /* Fondo rojo */
+    font-family: 'Oswald', sans-serif;
+}
+
+.columna1 {
+    float: left;
+    width: 45%;
+    padding: 10px;
+    border: 2px solid black; /* Borde negro de 2px */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+.columna2 {
+    float: right;
+    width: 45%;
+    padding: 10px;
+    border: 2px solid black; /* Borde negro de 2px */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+.columna3 {
+    float: left;
+    width: 45%;
+    padding: 10px;
+    border: 2px solid black; /* Borde negro de 2px */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+.columna4 {
+    float: right;
+    width: 45%;
+    padding: 10px;
+    border: 2px solid black; /* Borde negro de 2px */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+h1 {
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+li {
+    list-style-position: inside; /* Posición de la lista dentro del contenedor */
+    padding: 0%; /* Sin relleno */
+}
+
+video {
+    border: 2px solid black; /* Borde negro de 2px para el elemento video */
+}
+
+header {
+    border: 2px solid black; /* Borde negro de 2px */
+    background-color: red; /* Fondo rojo */
+    font-family: 'Oswald', sans-serif;
+    width: 100%; /* Ocupa el 100% del ancho del contenedor */
+}
+
+nav ul {
+    text-align: center; /* Centra los elementos de la lista horizontalmente */
+    font-size: 150%; /* Tamaño de fuente al 150% */
+    margin-top: 3%; /* Margen superior del 3% */
+}
+
+nav ul li {
+    text-decoration: none;
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin-right: 40px; /* Margen derecho de 40px entre elementos de la lista */
+}
+
+nav a {
+    text-decoration: none;
+    color: white; /* Color del texto blanco */
+    background-color: black; /* Fondo negro */
+    border: 2px solid black; /* Borde negro de 2px */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 0.5%; /* Relleno del 0.5% */
+}
+
+.barra_buscar {
+    display: flex; /* Utiliza el modelo flexbox para el diseño */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    margin-top: 10px; /* Margen superior de 10px */
+    margin-bottom: 10px; /* Margen inferior de 10px */
+}
+
+.barra_buscar input {
+    margin-right: 5px; /* Margen derecho de 5px para el input */
+    border: none; /* Sin borde */
+    background-color: black; /* Fondo negro */
+    color: white; /* Color del texto blanco */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.barra_buscar button {
+    border: none; /* Sin borde */
+    background-color: black; /* Fondo negro */
+    color: white; /* Color del texto blanco */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+#mensaje {
+    text-align: center; /* Centra el texto del mensaje horizontalmente */
+}
+
+.imagen {
+    text-align: center; /* Centra la imagen horizontalmente */
+    margin-top: 3%; /* Margen superior del 3% */
+    margin-bottom: 3%; /* Margen inferior del 3% */
+}

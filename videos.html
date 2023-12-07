@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head> 
+    <title>Página de vídeos</title>
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+
+<body> <!-- La estructura del código es la misma que en la página de audios, solo se diferencia respecto a los vídeos y los textos -->
+    <header>
+        <h1>Vídeos</h1>
+        <nav>
+            <ul>
+                <li><a href="inici.html"><b>Inicio</b></a></li>
+                <li><a href="audios.html"><b>Audios</b></a></li>
+                <li><a href="videos.html"><b>Vídeos</b></a></li>
+            </ul>
+            <div class="barra_buscar">
+                <input type="text" id="searchInput" placeholder="Buscar...">
+                <button onclick="buscar()">Buscar</button>
+            </div>
+            <div id="mensaje"></div>
+        </nav>
+    </header>
+    <main>
+        <div class="contenedor">
+            <h1>Vídeos</h1>
+            <div class="columna1">
+                <h2>Vídeo 1</h2>
+            </div>
+            <div class="columna2">
+                <h2>Vídeo 2</h2>
+            </div>
+            <div class="columna3">
+                <h3>Un fondo verde durante 1 minuto</h3>
+                <video width="300" controls>
+                    <source src="/VÍDEOS/1 minute Green Screen Video.mp4">
+                </video>
+            </div>
+            <div class="columna4">
+                <h3>Un fondo verde durante 1 minuto</h3>
+                <video width="300" controls>
+                    <source src="/VÍDEOS/Blue Screen 1 Minute.mp4">
+                </video>
+            </div>
+        </div>
+    </main>
+    <script src="/SCRIPT/script.js"></script>
+</body>

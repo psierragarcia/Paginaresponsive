@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <title>Página de audios</title>
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+
+<body> <!-- El código es el mismo que el de la página de inicio, solo se diferencia en los textos y en los audios -->
+    <header> 
+        <h1>Audios</h1>
+        <nav>
+            <ul>
+                <li><a href="inicio.html"><b>Inicio</b></a></li>
+                <li><a href="audios.html"><b>Audios</b></a></li>
+                <li><a href="videos.html"><b>Vídeos</b></a></li>
+            </ul>
+            <div class="barra_buscar">
+                <input type="text" id="searchInput" placeholder="Buscar...">
+                <button onclick="buscar()">Buscar</button>
+            </div>
+            <div id="mensaje"></div>
+        </nav>
+    </header>
+    <main>
+        <div class="contenedor">
+            <div class="columna1">
+                <h2>Audio 1</h2>
+            </div>
+            <div class="columna2">
+                <h2>Audio 2</h2>
+            </div>
+            <div class="columna3">
+                <h3>Sneaky Snitch - Kevin Macleod</h3>
+                <audio controls> <!-- Dentro de este elemento he añadido los enlaces a ambos audios que están descargados dentro de la carpeta, usando la etiqueta "source" -->
+                    <source src="/ÀUDIOS/Sneaky Snitch (Kevin MacLeod) - Background Music (HD).mp3"> 
+                </audio>
+            </div>
+            <div class="columna4">
+                <h3>Scheming Weasel Faster - Kevin Macleod</h3>
+                <audio controls>
+                    <source src="/ÀUDIOS/Scheming_Weasel_Faster_Kevin_Macleod_-_Background_Music_HD_1.mp3">
+                </audio>
+            </div>
+        </div>
+    </main>
+    <script src="/SCRIPT/script.js"></script>
+</body>
